@@ -1,11 +1,23 @@
 @(books: List[Book])
 
 @main("Book database") {
-  <h2>Previously inserted books:</h2>
-  <table>
-    <tr><th>Name</th><th>Color</th></tr>
-    @for(c <- books){
-    <tr><td>@c.id</td><td>@c.title</td></tr>
+<div class="container">
+    <div class="header row">
+        <div class="column">
+            <h1>Books I read</h1>
+        </div>
+    </div>
+    @if(books.length > 0) {
+        @for(bookBloc <- books.grouped(3).toList) {
+            <div class="row book-row">
+                @for(book <- bookBloc) {
+                    <div class="column">
+                        <img src="http://loremflickr.com/240/320?random=@book.id" />
+                        <div><a href="#">@book.title</a></div>
+                    </div>
+                }
+            </div>
+        }
     }
-  </table>
+</div>
 }

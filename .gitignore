@@ -7,3 +7,5 @@ target
 /.settings
 /RUNNING_PID
 conf/application.conf
+.DS_Store
+.sbtserver/*

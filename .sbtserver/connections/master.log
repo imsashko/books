@@ -1,47 +1,7 @@
-New log file opened at Wed Jan 20 21:29:19 EET 2016 by 9551@sashas-MacBook-Pro.local
-Taking next connection to: 52024
-New client attempting to connect on port: 52025-52024
-  Address = /192.168.0.32:52024
-This client on port 52025 has uuid e7a1076b-2960-449e-837f-2bed9879cee6 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-e7a1076b-2960-449e-837f-2bed9879cee6
-Taking next connection to: 52024
-New client attempting to connect on port: 52077-52024
-  Address = /192.168.0.32:52024
-Handshake exception on socket: 52077
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.io.EOFException
-	at java.io.DataInputStream.readInt(DataInputStream.java:392)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 52024
-New client attempting to connect on port: 52078-52024
-  Address = /192.168.0.32:52024
-This client on port 52078 has uuid 4bf665a3-0734-4c7b-a126-b2ba3fa378ac configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-4bf665a3-0734-4c7b-a126-b2ba3fa378ac
-Taking next connection to: 52024
-New client attempting to connect on port: 52122-52024
-  Address = /192.168.0.32:52024
-Handshake exception on socket: 52122
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(SocketInputStream.java:189)
-	at java.net.SocketInputStream.read(SocketInputStream.java:121)
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
-	at java.io.DataInputStream.readInt(DataInputStream.java:387)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 52024
-New client attempting to connect on port: 52123-52024
-  Address = /192.168.0.32:52024
-This client on port 52123 has uuid f26277eb-f7d2-4801-a512-593220ce275b configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-f26277eb-f7d2-4801-a512-593220ce275b
-Taking next connection to: 52024
+New log file opened at Fri Jan 22 00:56:18 EET 2016 by 6621@sashas-MacBook-Pro.local
+Taking next connection to: 63634
+New client attempting to connect on port: 63635-63634
+  Address = /192.168.0.32:63634
+This client on port 63635 has uuid 417c1ec8-c8ec-4593-83a8-c50f3246df28 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-417c1ec8-c8ec-4593-83a8-c50f3246df28
+Taking next connection to: 63634
